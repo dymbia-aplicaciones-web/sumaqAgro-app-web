@@ -2,7 +2,7 @@ import {createRouter, createWebHistory} from "vue-router";
 import i18n from "./i18n.js";
 import iamRoutes from "./iam/presentation/iam-routes.js";
 import fieldManagementRoutes from "./field-management/presentation/field-management-routes.js";
-import cropHealthRoutes from "../../../../sumaqAgro-app-web/sumaq/src/crop-health/presentation/crop-health-routes.js";
+import cropHealthRoutes from "./crop-health/presentation/crop-health-routes.js";
 import profilesRoutes from "./profiles/presentation/profiles-routes.js";
 import harvestCertificationRoutes, {publicTraceabilityRoutes} from "./harvest-certification/presentation/harvest-certification-routes.js";
 import {authenticationGuard} from "./iam/infrastructure/authentication.guard.js";
