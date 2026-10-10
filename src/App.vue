@@ -1,7 +1,13 @@
-<script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
+<script setup>
+/**
+ * Root component.
+ * The private pages are shown inside the shell (`layout.vue`, nested route),
+ * the demo access and the public QR verification without it.
+ */
 </script>
 
 <template>
-  <HelloWorld />
+  <pv-toast/>
+  <pv-confirm-dialog/>
+  <router-view/>
 </template>
